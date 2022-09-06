@@ -1,3 +1,5 @@
+import { hellosign } from '@/hellowsigh/config';
+import { logger } from '@/utils/logger';
 import { NextFunction, Request, Response } from 'express';
 
 class IndexController {
